@@ -3,7 +3,7 @@ const router = express.Router();
 const orderController = require("../Controllers/ordersController");
 
 //route to place order
-router.post("/placeorder", orderController.placeOrder);
+router.post("/", orderController.placeOrder);
 
 //route to get order History
 router.get("/orderhistory", orderController.getOrderHistory);

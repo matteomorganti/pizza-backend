@@ -1,4 +1,4 @@
-const UserCart = require("../Models/userCart.model");
+const UserCart = require("../Models/userCartModel");
 const Order = require("../Models/orderModel");
 
 /**
